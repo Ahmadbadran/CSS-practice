@@ -4,7 +4,7 @@ main {
 .parent{
 }
 
-.upper-para {
+.paragraph {
     height: 100px;
     width: 250px;
     background-color: rgb(150, 144, 144);
@@ -19,4 +19,23 @@ main {
     height: 500px;
     display:block;
     position: absolute;
+
+    border-right: 2px solid black;
+}
+.parent{
+    background-color: aliceblue;
+}
+#scroll {
+    margin:4px, 4px;
+    padding:4px;
+    background-color: white;
+    width: 830px;
+    height: 60px;
+    overflow-y:auto;
+    text-align: justify;
+    scroll-behavior: smooth;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-spacing: 40px;
+    
 }
