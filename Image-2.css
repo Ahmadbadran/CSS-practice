@@ -39,3 +39,7 @@ main {
     border-spacing: 40px;
     
 }
+main {
+margin: auto;
+padding: auto;    
+}
