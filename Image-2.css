@@ -23,7 +23,7 @@
 }
 #scroll {
     margin-top:100px;
-    padding:4px;
+    padding:0px;
     background-color: white;
     width: 830px;
     height: 60px;
@@ -33,6 +33,9 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-spacing: 40px;
+    font-weight: bold
+    
+    ;font-stretch:narrower;
     
 }
 main {
