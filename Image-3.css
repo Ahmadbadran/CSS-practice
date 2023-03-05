@@ -1,4 +1,8 @@
+
 .head{
+    padding-left: 10%;
+}
+main{
     padding-left: 10%;
 }
 #pp {
@@ -12,26 +16,31 @@ hr {
         box-align: center;
 
 } 
-.blue {
-    font-size: 30px;
-    color:blue
-}
+
 .orangeLink{
     color: orange;
 }
 .black-para{
     font-size: 25px;
 }
-#highlighted {
-background-color: yellow;
-}
-.bold{
-    font-weight: bold;
-    font-size: 25px;
-}
-.redLink{
-    color: red;
-}
+
 .none {
     list-style-type: none;
+}
+
+ul li a {
+    color: red;
+}
+ul ul li {
+    color: blue;
+}
+main p:nth-child(1){
+    color: blue;
+}
+main p:nth-child(3) a{
+    background-color: yellow;
+}
+ul li:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
 }
