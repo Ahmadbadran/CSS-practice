@@ -1,15 +1,17 @@
 body {
     padding-left: 10%;
+    padding-right: 10%;
 }
 #bold {
     font-size: 22px;
     font-weight: bold;
     /* padding-left: 10%; */
 }
-hr {
-    width: 80%;
+header + div hr {
+    width: 100%;
     size: 20%;
     box-align: center;
+    
 
 }
 .box {
