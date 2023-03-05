@@ -1,5 +1,6 @@
 
 
+
 .paragraph {
     height: 110px;
     width: 250px;
@@ -13,9 +14,7 @@
     background-color: rgb(232, 223, 209);
     width: 850px;
     height: 500px;
-    /* display:block; */
-    position: absolute;
-
+    
     border-right: 2px solid black;
 }
 .parent{
