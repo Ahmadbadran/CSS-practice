@@ -1,0 +1,46 @@
+body {
+    padding-left: 10%;
+}
+#bold {
+    font-size: 22px;
+    font-weight: bold;
+    /* padding-left: 10%; */
+}
+hr {
+    width: 80%;
+    size: 20%;
+    box-align: center;
+
+}
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;  
+    display: inline-block; 
+     
+}
+
+
+.yellow:nth-child(odd){
+    background: yellow;
+    display: inline-block;
+}
+.green {
+    background-color: green;
+    position: relative;
+    top: 30px;
+}
+.nums{
+    border: 2px solid black;
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+}
+.nums:nth-child(even){
+    display: none;
+}
